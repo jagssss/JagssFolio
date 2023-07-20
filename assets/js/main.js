@@ -95,6 +95,6 @@ $("html").click(
   function playSound(name) {
     var audio = new Audio("./assets/sound/interface-button-154180.mp3");
     audio.play();
-    audio.volume = 0.1;
+    audio.volume = 0.3;
   }
 );
